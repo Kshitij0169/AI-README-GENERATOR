@@ -1,14 +1,17 @@
 # 🎉 GitHub README generator with Streamlit
-# 🚀 This README was generated using my app! Yay!
+
+# 🚀 This README was generated using this app! Yay!
 
 Welcome to the **GitHub Repository Analyzer**! This project provides a user-friendly interface to analyze codebases hosted on GitHub using **Streamlit** and **OpenAI**'s API. With this application, you can extract and visualize codebase details in a few simple steps.
 
 ## 🚀 Features
+
 - **Streamlit Interface**: A clean and interactive web application built with Streamlit.
 - **OpenAI Integration**: Utilize OpenAI's powerful models to analyze code and generate insights.
 - **Environment Variables**: Securely manage API keys using a `.env` file.
 
 ## 📁 Project Structure
+
 ```
 .
 ├── .env
@@ -25,18 +28,21 @@ Welcome to the **GitHub Repository Analyzer**! This project provides a user-frie
 To get started with this project, follow these steps:
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/yourusername/repo-name.git
    cd repo-name
    ```
 
 2. **Set up a virtual environment** (optional but recommended):
+
    ```bash
    python -m venv myapp-env
    source myapp-env/bin/activate  # On Windows use `myapp-env\Scripts\activate`
    ```
 
 3. **Install required packages**:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -49,6 +55,7 @@ To get started with this project, follow these steps:
 ## 🛠️ Usage
 
 1. **Run the application**:
+
    ```bash
    streamlit run app.py
    ```
@@ -69,12 +76,13 @@ def get_repo_files_and_contents(github_url):
 ```
 
 ## 📝 Additional Information
+
 - Make sure to keep your API keys secure and not share your `.env` file.
 - Contributions to improve the app or add new features are welcome! Please create a pull request or open an issue.
 
 ## 🤝 Contributing
-If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
 ---
 
