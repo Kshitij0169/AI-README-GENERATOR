@@ -1,4 +1,5 @@
-# 🎉 GitHub Repository Analyzer with Streamlit
+# 🎉 GitHub README generator with Streamlit
+# 🚀 This README was generated using my app! Yay!
 
 Welcome to the **GitHub Repository Analyzer**! This project provides a user-friendly interface to analyze codebases hosted on GitHub using **Streamlit** and **OpenAI**'s API. With this application, you can extract and visualize codebase details in a few simple steps.
 
