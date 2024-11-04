@@ -75,12 +75,7 @@ def get_repo_files_and_contents(github_url):
 ## 🤝 Contributing
 If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-## 📞 Contact
-For any questions or feedback, feel free to reach out:
-
-- **Email**: your-email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
 
 ---
 
-Thank you for checking out the GitHub Repository Analyzer! Enjoy analyzing your favorite repositories! 🚀
+Thank you for checking out the GitHub README Generating! Enjoy generating effortless README files! 🚀
