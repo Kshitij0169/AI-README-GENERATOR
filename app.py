@@ -25,8 +25,10 @@ def get_repo_files_and_contents(github_url):
     repo = parts[-1]
     api_url = f"https://api.github.com/repos/{owner}/{repo}/contents/"
 
+    headers = {'Authorization': f'token {os.getenv("GITHUB_TOKEN")}'}
+
     try:
-        response = requests.get(api_url)
+        response = requests.get(api_url, headers=headers)
         response.raise_for_status()
         repo_files = response.json()
 
